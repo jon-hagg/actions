@@ -15,3 +15,4 @@ runs:
         -H "Accept: application/vnd.github.v3+json" \
         -H "Content-Type: application/json" ${{ env.DISPATCH_API }} \
         --data '{"ref": "refs/heads/master"}'
+      shell: bash
